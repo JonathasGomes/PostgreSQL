@@ -13,6 +13,8 @@ create table nomedatabela(
 Dentro dele você vai especificar quais vão ser os nomes das colunas, os tipos, quantidade de caractere máximo ou mínimo e se o campo pode ser vázio ou não  
 ~~~sql
 create table nomedatabela(
-     id 
+     id serial primary key,
+     descricao varchar(100) not null
 )
 ~~~
+Nome da coluna = descricao, tipo = varchar (significa cadeia de caracteres), (100) é o tamanho máximo de caracteres que podem oculpar um campo dessa coluna e not null = o campo é obrigatório
