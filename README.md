@@ -25,5 +25,24 @@ Depois de ter digitado o código aperte no botão de Execute (F5) para a tabela 
 Browser > nomedatabela, botão direito do mouse na tabela > Properties<br>
 Nessa janela você consegue editar tabela e colunas
 ## Editar Campos
-
+**Primeiro passo abra a Query Tool**
+### Insert
+Para inserir dados na tabela digite o código
+~~~sql
+insert into 
+~~~
+Depois digite o nome da tabela e entre parênteses digite o nome da coluna, em seguida digite values e o dado que deseja que seja inserido na coluna
+~~~sql
+insert into nomedatabela (descricao) values ('teste')
+~~~
+### Update
+Para atualizar dados na tabela digite o código
+~~~sql
+update
+~~~
+Depois digite o nome da tabela mais set e o nome da coluna, entre aspas simples coloque o novo dado e especifique qual é o identificador do dado que você deseja alterar (where id = 1)  
+~~~sql
+update nomedatabela set descricao = 'teste2' where id = 1
+~~~
+### Delete
 ## Créditos
