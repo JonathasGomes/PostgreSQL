@@ -45,4 +45,8 @@ Depois digite o nome da tabela mais set e o nome da coluna, entre aspas simples 
 update nomedatabela set descricao = 'teste2' where id = 1
 ~~~
 ### Delete
+Para deletar dados na tabela digite o código
+~~~sql
+delete from
+~~~
 ## Créditos
