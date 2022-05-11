@@ -1,8 +1,7 @@
 # Anotações Postgre
-Para criar um banco de dados aperte em Databases com o botão direito depois create > database..
-
+## Criando Banco de Dados, Tabelas e Colunas
+Para criar um banco de dados aperte em Databases com o botão direito depois create > database..<br>
 Para criar uma tabela aperte com o botão direito do mouse no banco de dados e selecione a opção Query Tool
-
 ### Explicando linhas passo a passo
 Esse código serve para criar a tabela
 ~~~sql
@@ -10,7 +9,7 @@ create table nomedatabela(
 
 )
 ~~~
-Dentro dele você vai especificar quais vão ser os nomes das colunas, os tipos, quantidade de caractere máximo ou mínimo e se o campo pode ser vázio ou não  
+Dentro dele você vai especificar quais serão os nomes das colunas, os tipos, quantidade de caractere máximo e se o campo pode ser vázio ou não  
 ~~~sql
 create table nomedatabela(
      id serial primary key,
@@ -19,7 +18,7 @@ create table nomedatabela(
 ~~~
 Nome da coluna = descricao, tipo = varchar (significa cadeia de caracteres), (100) é o tamanho máximo de caracteres que podem ocupar um campo dessa coluna e not null = o campo é obrigatório
 
-Depois de ter digitado o código aperte no botão de Execute (F5) para a tabela e as colunas serem criadas, para acessar a tabela vá em Database > nome do banco de dados que você colocou > Schemas > Tables > nomedatabela, botão direito do mouse na tabela View/Edit Data > All Rows 
+Depois de ter digitado o código aperte no botão de Execute (F5) para a tabela e as colunas serem criadas, para acessar a tabela vá em Database > nome do banco de dados que você colocou > Schemas > Tables > nomedatabela, botão direito do mouse na tabela > View/Edit Data > All Rows 
 
 ## Editar Tabela e Colunas
 Browser > nomedatabela, botão direito do mouse na tabela > Properties<br>
@@ -50,3 +49,4 @@ Para deletar dados na tabela digite o código
 delete from
 ~~~
 ## Créditos
+https://www.youtube.com/watch?v=k4wYRoMvBwE&list=PLWd_VnthxxLe660ABLFZH26CW3G-uQIv-&index=1
