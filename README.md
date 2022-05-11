@@ -21,8 +21,9 @@ Nome da coluna = descricao, tipo = varchar (significa cadeia de caracteres), (10
 
 Depois de ter digitado o código aperte no botão de Execute (F5) para a tabela e as colunas serem criadas, para acessar a tabela vá em Database > nome do banco de dados que você colocou > Schemas > Tables > nomedatabela, botão direito do mouse na tabela View/Edit Data > All Rows 
 
-## Editar Colunas
-
+## Editar Tabela e Colunas
+Browser > nomedatabela, botão direito do mouse na tabela > Properties
+Nessa janela você consegue editar tabela e as colunas
 ## Editar Campos
 
 ## Créditos
