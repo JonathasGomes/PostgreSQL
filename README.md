@@ -53,5 +53,19 @@ Depois digite o nome da tabela e qual é o identificador que você deseja deleta
 ~~~sql
 delete from nometabela where id = 1
 ~~~
+## Consultando Dados
+### Select
+Para consultar dados use o select
+~~~sql
+select nomedacoluna1, nomedacoluna2, nomedacoluna3 from nomedatabela
+~~~
+Para ter uma consulta mais precisa você pode usar o where, assim ele vai listar apenas os dados do nomedacoluna3 q está preenchido como 0
+~~~sql
+select nomedacoluna1, nomedacoluna2, nomedacoluna3 from nomedatabela where nomedacoluna3 = 0
+~~~
+Para listar todos os dados use
+~~~sql
+select * from nomedatabela
+~~~
 ## Créditos
 https://www.youtube.com/watch?v=k4wYRoMvBwE&list=PLWd_VnthxxLe660ABLFZH26CW3G-uQIv-&index=1
