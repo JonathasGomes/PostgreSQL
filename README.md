@@ -47,7 +47,7 @@ Para consultar dados use o select
 ~~~sql
 select nomedacoluna1, nomedacoluna2, nomedacoluna3 from nomedatabela
 ~~~
-Para ter uma consulta mais precisa você pode usar o where, assim ele vai listar apenas os dados do nomedacoluna3 q está preenchido como 0
+Para ter uma consulta mais precisa você pode usar o where, assim ele vai listar apenas os dados do nomedacoluna3 que está preenchido como 0
 ~~~sql
 select nomedacoluna1, nomedacoluna2, nomedacoluna3 from nomedatabela where nomedacoluna3 = 0
 ~~~
