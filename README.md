@@ -49,5 +49,9 @@ Para deletar dados na tabela digite o código
 ~~~sql
 delete from
 ~~~
+Depois digite o nome da tabela e qual é o identificador que você deseja deletar
+~~~sql
+delete from nometabela where id = 1
+~~~
 ## Créditos
 https://www.youtube.com/watch?v=k4wYRoMvBwE&list=PLWd_VnthxxLe660ABLFZH26CW3G-uQIv-&index=1
