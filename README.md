@@ -27,29 +27,17 @@ Nessa janela você consegue editar tabela e colunas
 ## Editar Campos
 **Primeiro passo abra a Query Tool**
 ### Insert
-Para inserir dados na tabela digite o código
-~~~sql
-insert into 
-~~~
-Depois digite o nome da tabela e entre parênteses digite o nome da coluna, em seguida digite values e o dado que deseja que seja inserido na coluna
+Para inserir dados na tabela digite insert into, depois digite o nome da tabela e entre parênteses digite o nome da coluna, em seguida digite values e o dado que deseja que seja inserido no campo
 ~~~sql
 insert into nomedatabela (descricao) values ('teste')
 ~~~
 ### Update
-Para atualizar dados na tabela digite o código
-~~~sql
-update
-~~~
-Depois digite o nome da tabela mais set e o nome da coluna, entre aspas simples coloque o novo dado e especifique qual é o identificador do dado que você deseja alterar (where id = 1)  
+Para atualizar dados na tabela digite update, depois digite o nome da tabela mais set e o nome da coluna, entre aspas simples coloque o novo dado e especifique qual é o identificador do dado que você deseja alterar (where id = 1)  
 ~~~sql
 update nomedatabela set descricao = 'teste2' where id = 1
 ~~~
 ### Delete
-Para deletar dados na tabela digite o código
-~~~sql
-delete from
-~~~
-Depois digite o nome da tabela e qual é o identificador que você deseja deletar
+Para deletar dados na tabela digite delete from, depois digite o nome da tabela e qual é o identificador que você deseja deletar
 ~~~sql
 delete from nometabela where id = 1
 ~~~
@@ -63,7 +51,7 @@ Para ter uma consulta mais precisa você pode usar o where, assim ele vai listar
 ~~~sql
 select nomedacoluna1, nomedacoluna2, nomedacoluna3 from nomedatabela where nomedacoluna3 = 0
 ~~~
-Para listar todos os dados use
+Para listar todos os dados use *
 ~~~sql
 select * from nomedatabela
 ~~~
