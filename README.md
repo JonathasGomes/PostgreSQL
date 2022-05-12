@@ -56,5 +56,9 @@ Para listar todos os dados use *
 select * from nomedatabela
 ~~~
 ### Inner Join
+Inner Join serve para juntar tabelas
+~~~sql
+select * from nomedatabela1 inner join nomedatabela2
+~~~
 ## Créditos
 https://www.youtube.com/watch?v=k4wYRoMvBwE&list=PLWd_VnthxxLe660ABLFZH26CW3G-uQIv-&index=1
