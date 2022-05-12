@@ -67,5 +67,6 @@ Para listar todos os dados use
 ~~~sql
 select * from nomedatabela
 ~~~
+### Inner Join
 ## Créditos
 https://www.youtube.com/watch?v=k4wYRoMvBwE&list=PLWd_VnthxxLe660ABLFZH26CW3G-uQIv-&index=1
