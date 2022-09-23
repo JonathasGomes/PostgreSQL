@@ -1,5 +1,5 @@
 # Anotações Postgre
-Eu frequentemente esqueço como usar algumas funções do banco de dados, então decidi criar esse guia para me ajudar a lembrar do que eu preciso de uma forma mais rápida e fácil 
+Frequentemente esqueço como usar algumas funções do banco de dados, então decidi criar esse guia para me ajudar a lembrar do que eu preciso de uma forma mais rápida e fácil 
 ## Criando Banco de Dados, Tabelas e Colunas
 Para criar um banco de dados aperte em Databases com o botão direito depois create > database..<br>
 Para criar uma tabela aperte com o botão direito do mouse no banco de dados e selecione a opção Query Tool
